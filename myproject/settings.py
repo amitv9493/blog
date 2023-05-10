@@ -18,7 +18,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['3.136.145.233',
                  '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['3.136.145.233']  
+CSRF_TRUSTED_ORIGINS = ['http://3.136.145.233']  
 
 # Application definition
 
@@ -129,4 +129,6 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+SECURE_SSL_REDIRECT =True
 SECURE_CROSS_ORIGIN_OPENER_POLICY =None
