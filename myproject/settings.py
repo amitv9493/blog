@@ -123,6 +123,9 @@ EMAIL_HOST_USER = 'amitdummy9493@gmail.com'
 EMAIL_HOST_PASSWORD = 'moxfbfewejtlrhoe'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
-
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), ) 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
