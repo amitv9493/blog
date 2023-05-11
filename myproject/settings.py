@@ -125,7 +125,7 @@ EMAIL_USE_TLS = True
 
 # STATIC AND MEDIA 
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), ) 
-STATIC_URL = '/static/'
+STATIC_URL = '/staticfiles/'
 STATIC_ROOT = '/home/ubuntu/blog/staticfiles/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
