@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-!2^)h*w70c)k6k!t%&@n8%a-s9$byz^c0tc9nqx1wjgp4xyk^q
 # SESSION_COOKIE_SECURE = True
 # CSRF_COOKIE_SECURE = True
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['3.136.145.233',
                  '127.0.0.1']
@@ -125,8 +125,8 @@ EMAIL_USE_TLS = True
 
 # STATIC AND MEDIA 
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), ) 
-STATIC_URL = '/staticfiles/'
-STATIC_ROOT = '/home/ubuntu/blog/staticfiles/'
+STATIC_URL = '/static/'
+STATIC_ROOT = '/var/www/html/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
