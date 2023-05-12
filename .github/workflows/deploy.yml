@@ -1,4 +1,4 @@
-name: Deploy using AWS SSM Send-Command 
+name: Deploy using AWS SSM Send-Command.
 
 on:
   push:
