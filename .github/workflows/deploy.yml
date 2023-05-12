@@ -17,7 +17,7 @@ jobs:
         aws-region: us-east-2
         instance-ids: ${{ secrets.INSTANCE_ID }}
         comment: Deploy the master branch
-        working-directory: /
+        working-directory: /home/ubuntu/blog
         command: /bin/sh ./deploy.sh
 
 # The Secrets we provided to the repo earlier come into use in this script.
